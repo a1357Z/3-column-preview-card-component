@@ -74,6 +74,8 @@ h1 {
 
 #learn-more:hover {
   background-color: inherit;
+  transition: 0.7s ease all;
+  border: 1px solid white;
 }
 
 #learn-more:hover span {
