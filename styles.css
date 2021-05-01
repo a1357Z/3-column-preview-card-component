@@ -52,7 +52,6 @@ h1 {
 }
 
 #learn-more {
-  margin: 15px auto;
   background-color: hsl(0, 0%, 95%);
   height: 40px;
   width: 100px;
@@ -71,4 +70,46 @@ h1 {
 
 .luxury-color {
   color: hsl(179, 100%, 13%);
+}
+
+#learn-more:hover {
+  background-color: inherit;
+}
+
+#learn-more:hover span {
+  color: hsl(0, 0%, 95%);
+}
+
+@media screen and (max-width: 710px) {
+  #container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #container > div {
+    width: 100%;
+  }
+
+  .cover {
+    height: auto;
+    margin: 40px;
+  }
+
+  .inner-container {
+    margin: 20px;
+    height: 70%;
+    width: 75%;
+  }
+
+  #sedan {
+    border-radius: 10px 10px 0 0;
+  }
+
+  #luxury {
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  #learn-more {
+    margin-top: 50px;
+  }
 }
